@@ -13,12 +13,7 @@ import static io.restassured.RestAssured.*;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import java.util.HashMap;
-import java.util.Map;
-import static org.hamcrest.Matchers.lessThan;
-import org.junit.jupiter.api.AfterAll;
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class locationApiTest {
